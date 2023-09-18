@@ -8325,6 +8325,15 @@ ul {
   margin-bottom: 4px;
 }
 
+.apartment-details-one__list-content h4{
+    font-size: 24px;
+    font-weight: 500;
+    color:var(--alipes-base);
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
 .apartment-details-one__list-content h3 sup {
   position: relative;
   font-size: 22px;
@@ -12019,4 +12028,16 @@ body.boxed-wrapper {
   background-color: #fff;
   -webkit-box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.08);
   box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.08);
+}
+
+.floor-plan__tab-content-righ.planImgWrap {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+.floor-plan__tab-content-righ.planImgWrap img{
+  width: 100%;
+}
+.floor-plan__main-tab-box .tab-buttons.planTabListWrap .tab-btn span{
+  padding:23px 22px 19px;
 }
