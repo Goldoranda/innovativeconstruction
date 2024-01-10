@@ -26,6 +26,7 @@
   --alipes-white: #ffffff;
   --alipes-white-rgb: 255, 255, 255;
   --alipes-base: #cd8c66;
+  --alipes-base01: #ffc3a1;
   --alipes-base-rgb: 205, 140, 102;
   --alipes-black: #221c13;
   --alipes-black-rgb: 34, 28, 19;
@@ -2077,16 +2078,16 @@ ul {
 
 .main-slider-two__text {
   font-size: 24px;
-  color: var(--alipes-base);
+  color: var(--alipes-base01);
   line-height: 30px;
   font-weight: 500;
   font-family: var(--alipes-font-two);
   letter-spacing: var(--alipes-letter-spacing);
   text-transform: uppercase;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transform: translateY(120px);
-  transform: translateY(120px);
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(80px);
+  transform: translateY(80px);
   -webkit-transition-delay: 1000ms;
   transition-delay: 1000ms;
   -webkit-transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
@@ -2097,11 +2098,12 @@ ul {
 
 
 .main-slider-two .swiper-slide-active .main-slider-two__title,
-.main-slider-two .swiper-slide-active .main-slider-two__text {
+.main-slider-two .swiper-slide-active .main-slider-two__text,
+.main-slider-three .swiper-slide-active .main-slider-two__text{
   visibility: visible;
   opacity: 1;
-  -webkit-transform: translateY(0) translateX(0);
-  transform: translateY(0) translateX(0);
+  -webkit-transform: translateY(25px) translateX(0);
+  transform: translateY(25px) translateX(0);
 }
 
 #main-slider-pagination {
@@ -4967,7 +4969,7 @@ ul {
 .services-one__single-inner {
   position: relative;
   display: block;
-  padding: 49px 50px 45px;
+  padding: 49px 0px 45px;
   overflow: hidden;
   transition-delay: .1s;
   transition-timing-function: ease-in-out;
@@ -7190,8 +7192,8 @@ ul {
   left: 0;
   right: 0;
   height: 420px;
-  background: rgb(26, 21, 14);
-  background: linear-gradient(0deg, rgba(26, 21, 14, 0) 35%, rgba(26, 21, 14, 0.9976365546218487) 85%);
+  /*background: rgb(26, 21, 14);
+  background: linear-gradient(0deg, rgba(26, 21, 14, 0) 35%, rgba(26, 21, 14, 0.9976365546218487) 85%);*/
   opacity: .60;
   z-index: 1;
 }
@@ -7202,6 +7204,9 @@ ul {
   text-align: center;
   padding: 330px 0 183px;
   z-index: 15;
+}
+.page-header__inner.text-left{
+  text-align:left;
 }
 
 .page-header__inner h2 {
@@ -12040,4 +12045,7 @@ body.boxed-wrapper {
 }
 .floor-plan__main-tab-box .tab-buttons.planTabListWrap .tab-btn span{
   padding:23px 22px 19px;
+}
+.opacity-0{
+  opacity:0 !important
 }
