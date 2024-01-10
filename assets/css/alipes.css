@@ -7205,9 +7205,6 @@ ul {
   padding: 330px 0 183px;
   z-index: 15;
 }
-.page-header__inner.text-left{
-  text-align:left;
-}
 
 .page-header__inner h2 {
   font-size: 50px;
@@ -8330,6 +8327,12 @@ ul {
   margin-bottom: 4px;
 }
 
+.projects-details-list .values-two__points li .icon{
+top: -18px;
+}
+.projects-details-list .values-two__points li .text{
+  margin-bottom:15px;
+}
 .apartment-details-one__list-content h4{
     font-size: 24px;
     font-weight: 500;
@@ -8337,6 +8340,21 @@ ul {
     line-height: 40px;
     text-transform: uppercase;
     margin-bottom: 4px;
+}
+.projects-details-list .list-unstyled .text h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--alipes-base);
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+.projects-details-list .list-unstyled .text h5{
+    font-size: 16px;
+    color: var(--alipes-gray);
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 16px;
 }
 
 .apartment-details-one__list-content h3 sup {
