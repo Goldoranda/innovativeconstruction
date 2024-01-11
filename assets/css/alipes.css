@@ -12067,3 +12067,27 @@ body.boxed-wrapper {
 .opacity-0{
   opacity:0 !important
 }
+.main-slider-three .swiper-container{
+  height: 110vh;
+}
+.icon-img{
+  position:relative;
+  width:65px;
+  height: 65px;
+  overflow:hidden;
+}
+.icon-img::before{
+  display:none !important;
+}
+.icon-img img{
+  position:absolute;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  width:auto;
+  height:auto;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
