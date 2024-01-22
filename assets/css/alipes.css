@@ -2078,7 +2078,7 @@ ul {
 
 .main-slider-two__text {
   font-size: 24px;
-  color: var(--alipes-base01);
+  color: #ffffff;
   line-height: 30px;
   font-weight: 500;
   font-family: var(--alipes-font-two);
@@ -2215,7 +2215,7 @@ ul {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(34, 28, 19, .70);
+  /*background-color: rgba(34, 28, 19, .70);*/
 }
 
 .main-slider-three .swiper-slide-active .image-layer-three {
@@ -2241,7 +2241,7 @@ ul {
 
 .main-slider-three__title {
   position: relative;
-  font-size: 80px;
+  font-size: 60px;
   color: var(--alipes-white);
   font-weight: 800;
   line-height: 75px;
@@ -5020,7 +5020,7 @@ ul {
   position: absolute;
   width: 47px;
   height: 47px;
-  background-color: var(--alipes-primary);
+  /*background-color: var(--alipes-primary);*/
   border-radius: 50%;
   top: 15px;
   right: -19px;
@@ -5032,14 +5032,14 @@ ul {
 }
 
 .services-one__single:hover .services-one__icon::before {
-  background-color: rgba(var(--alipes-white-rgb), .10);
+  /*background-color: rgba(var(--alipes-white-rgb), .10);*/
 }
 
 .services-one__icon span {
   position: relative;
   display: inline-block;
   font-size: 64px;
-  color: var(--alipes-base);
+  /*color: var(--alipes-base);*/
 }
 
 .services-one__title {
@@ -12059,7 +12059,10 @@ body.boxed-wrapper {
   margin: 0 auto;
 }
 .floor-plan__tab-content-righ.planImgWrap img{
-  width: 100%;
+  width:auto;
+  max-width:100%;
+  margin:auto;
+  display:block;
 }
 .floor-plan__main-tab-box .tab-buttons.planTabListWrap .tab-btn span{
   padding:23px 22px 19px;
